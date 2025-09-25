@@ -13,7 +13,7 @@ function Contact() {
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-start mb-2">
                         {contactlist.map((contact, index) => (
                             <div key={index}>
-                                <h5 className={contact.icon} >{contact.name}: <a className="h4 text-primary" href={contact.url}> {contact.description}</a></h5>
+                                <h5 className={contact.icon} > {contact.name}: <a className="h4 text-primary" href={contact.url}> {contact.description}</a></h5>
                                 
 
                             </div>
