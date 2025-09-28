@@ -3,7 +3,7 @@ import { aboutMe } from "./Services";
 function About() {
     const about = aboutMe();
     return (
-        <section className="container-sm" id="about" style={styles.section}>
+        <section className="container-sm mt-5" id="about" style={styles.section}>
 
             {about.map((me, index) => (
                 <div key={index} className="row align-items-center" style={{ minHeight: "300px" }}>

@@ -1,24 +1,37 @@
 export function getProjects() {
     return [
         {
-            id: 1, name: "Personal Portfolio Website (Biginner)", description: "A responsive website to showcase your skills, projects, and contact information."
+            id: 1,
+            name: "Personal Portfolio Website",
+            description: "A fully responsive and visually appealing website designed to highlight professional skills, showcase completed projects, and provide easy access to contact information. Built with modern frameworks and best practices for performance and accessibility."
         },
         {
-            id: 2, name: "Library Management System (Intermediate)", description: "A desktop app for tracking books, members, and borrowing records."
+            id: 2,
+            name: "Library Management System",
+            description: "A robust desktop application developed to streamline library operations by managing book inventories, tracking member details, and monitoring borrowing/returning activities. Features include search, categorization, and reporting functions."
         },
         {
-            id: 3, name: "Task Management System (Beginner)", description: "A web app for managing daily tasks with categories and priorities."
+            id: 3,
+            name: "Task Management System",
+            description: "A user-friendly web application that helps individuals and teams organize daily activities by creating, categorizing, and prioritizing tasks. Includes deadline reminders, progress tracking, and collaboration tools for improved productivity."
         }
     ];
 }
 export function getSkills() {
     return [
-        { name: "Time Management", description: "Finishing tasks on schedule." },
         {
-            name: "Communication", description: "Working well with others and sharing ideas." },
-        { name: "Leadership", description: "Guiding and motivating a group to achieve goals." }
+            name: "Time Management",
+            description: "The ability to prioritize tasks, set realistic deadlines, and efficiently allocate time to maximize productivity without compromising quality."
+        },
+        {
+            name: "Communication",
+            description: "Effectively conveying ideas, actively listening, and ensuring clear understanding across teams and individuals, both in verbal and written forms."
+        },
+        {
+            name: "Leadership",
+            description: "Inspiring, guiding, and motivating team members by setting direction, fostering collaboration, and driving collective success toward shared goals."
+        }
     ];
-
 }
 export function aboutMe() {
     return [
