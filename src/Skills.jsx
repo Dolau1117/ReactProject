@@ -1,7 +1,8 @@
 import React from "react";
 import { getSkills } from "./Services";
-function Skills() {
-    const skillList = getSkills();
+function Skills({ owner }) {
+    const selectedOwner = owner || "Jenalyn";
+    const skillList = getSkills(selectedOwner);
 
     return (
         <div className="container-fluid" style={{ minHeight: "400px" }}>
@@ -9,7 +10,7 @@ function Skills() {
                 <div className="my-5 mdi mdi-code-tags fw-bolder text-primary text-uppercase text-center display-4 p-0"> Skills</div>
                 <div className="container d-flex justify-content-center">
                     <div className="row">
-                        {skillList.map((skill, index) => (
+                        {skillList.skills.map((skill, index) => (
 
                             <div key={index} className="col-xl-4 col-lg-4 col-md-4 col-lg-4 col-sm-12 p-1 d-flex justify-content-center">
                                 <div className="table rounded border border-info shadow" >
