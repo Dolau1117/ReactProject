@@ -1,7 +1,6 @@
 import React from "react";
-import { aboutMe } from "./Services";
-function Footer() {
-    const details = aboutMe()[0];
+function Footer({owner }) {
+    const details = owner;
     return (
         <footer style={styles.footer}>
             <p className="h5">© 2025 {details.name}. All rights reserved.</p>
@@ -12,8 +11,8 @@ function Footer() {
 const styles = {
     footer: {
         padding: "30px",
-        background: "#380891",
-        color: "white",
+        background: "white",
+        color: "black",
         textAlign: "center"
     }
 };

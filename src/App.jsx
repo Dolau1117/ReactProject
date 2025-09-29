@@ -6,23 +6,22 @@ import Projects from "./Projects.jsx";
 import Skills from "./Skills.jsx";
 import Contact from "./Contact.jsx";
 import Footer from "./Footer.jsx";
-import { getOwners } from "./Services";
+import { data } from "./Services";
 function App() {
-    const owners = getOwners();
-    const [owner, setOwner] = useState(owners[0]); // default first user
+    const owners = data();
+    const [owner, setOwner] = useState(owners[1]);
 
 
     return (
-
+        
         <>
-            <Header owner={owner} setOwner={setOwner} />
-            {/* Example usage: show projects of current owner */}
+            <Header owner={owner} setOwner={setOwner} owners={owners} />
            
-            <About />
-            <Projects />
-            <Skills />
-            <Contact />
-            <Footer />
+            <About owner={owner} />
+            <Projects owner={owner} />
+            <Skills owner={owner} />
+            <Contact owner={owner} />
+            <Footer owner={owner} />
 
         </>
     )
