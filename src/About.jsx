@@ -8,8 +8,8 @@ function About({ owner }) {
                     <img src={me.photo} alt={me.name} className=" rounded" />
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                        <label className="fw-bolder text-uppercase text-center text-dark display-4 py-3" >About Me</label>
-                        <p className="text-center text-dark h3">
+                        <label className="fw-bolder text-uppercase text-center text-info display-4 py-3" >About Me</label>
+                        <p className="text-center text-primary h3">
                         Hi, I'm {me.name}, {me.description}.
                         </p>
                     </div>

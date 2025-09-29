@@ -11,8 +11,8 @@ function Footer({owner }) {
 const styles = {
     footer: {
         padding: "30px",
-        background: "white",
-        color: "black",
+        background: "#380891",
+        color: "white",
         textAlign: "center"
     }
 };

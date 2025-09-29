@@ -6,9 +6,9 @@ export function data() {
             photo: "/Jenalyn.png",
             contact: [
 
-                { name: "Email", description: "jenalynmalayo@yahoo.com", url: "mailto:jenalynmalayo@yahoo.com", icon: "text-dark mdi mdi-email" },
-                { name: "Mobile", description: "+639091520748", url: "tel:+639091520748", icon: "text-dark mdi mdi-phone" },
-                { name: "GitHub", description: "https://github.com/jenalynmalayo53-boop", url: "https://github.com/jenalynmalayo53-boop", icon: "text-dark mdi mdi-github" }
+                { name: "Email", description: "jenalynmalayo@yahoo.com", url: "mailto:jenalynmalayo@yahoo.com", icon: "text-info mdi mdi-email" },
+                { name: "Mobile", description: "+639091520748", url: "tel:+639091520748", icon: "text-info mdi mdi-phone" },
+                { name: "GitHub", description: "https://github.com/jenalynmalayo53-boop", url: "https://github.com/jenalynmalayo53-boop", icon: "text-info mdi mdi-github" }
 
             ],
             project: [
@@ -53,9 +53,9 @@ export function data() {
             photo: "/Rica.png",
             contact: [
 
-                { name: "Email", description: "ricamarco@yahoo.com", url: "ricamarco@yahoo.com", icon: "text-dark mdi mdi-email" },
-                { name: "Mobile", description: "+639091520748", url: "tel:+639091520748", icon: "text-dark mdi mdi-phone" },
-                { name: "GitHub", description: "https://github.com/jenalynmalayo53-boop", url: "https://github.com/jenalynmalayo53-boop", icon: "text-dark mdi mdi-github" }
+                { name: "Email", description: "ricamarco@yahoo.com", url: "ricamarco@yahoo.com", icon: "text-info mdi mdi-email" },
+                { name: "Mobile", description: "+639091520748", url: "tel:+639091520748", icon: "text-info mdi mdi-phone" },
+                { name: "GitHub", description: "https://github.com/jenalynmalayo53-boop", url: "https://github.com/jenalynmalayo53-boop", icon: "text-info mdi mdi-github" }
 
             ],
             project: [

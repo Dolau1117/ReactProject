@@ -5,7 +5,7 @@ function Skills({ owner }) {
     return (
         <div className="container-fluid" style={{ minHeight: "400px" }}>
             <section id="skills" >
-                <div className="my-5 mdi mdi-code-tags fw-bolder text-dark text-uppercase text-center display-4 p-0"> Skills</div>
+                <div className="my-5 mdi mdi-code-tags fw-bolder text-primary text-uppercase text-center display-4 p-0"> Skills</div>
                 <div className="container d-flex justify-content-center">
                     <div className="row">
                         {skills.map((skill, index) => (
@@ -16,11 +16,11 @@ function Skills({ owner }) {
                                     <div className="">
                                        
                                         <div className="px-4 pb-3">
-                                            <div className=" fw-bolder text-uppercase h5 text-dark text-center pt-5">
+                                            <div className=" fw-bolder text-uppercase h5 text-primary text-center pt-5">
                                                 {skill.name}
                                             </div>
 
-                                            <div className=" h6 my-auto text-dark">
+                                            <div className=" h6 my-auto text-info">
                                                 {skill.description}
                                             </div>
 
